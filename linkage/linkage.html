@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        
+        <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+    
+
+        <script src="js/main.js"></script>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="icon" href ="images/favicon.ico"> 
+        
+                
+    </head>
+
+    <header class = "top-navbar">
+        <img src="images/logo.svg" class = logo>
+    </header>
+
+    <body>
+        
+        <pre id = "messages" style="font-family: 'DM sans', sans-serif;"></pre>
+
+
+        <div>
+            <textarea id = "input-field" maxlength=500 placeholder="Message here"></textarea>
+            
+            <button class="send-button" onclick="send()">
+                <img src="images/send_arrow.svg" style="width: 80px;">
+            </button>
+        </div>
+
+
+    </body>
+    
+</html>
